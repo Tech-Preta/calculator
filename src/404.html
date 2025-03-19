@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Não Encontrada (404)</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .error-container {
+            max-width: 600px;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            padding: 30px;
+            background-color: white;
+        }
+
+        h1 {
+            color: #6a0dad;
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #000000;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .definition {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #6a0dad;
+            margin: 20px 0;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .back-button:hover {
+            background-color: #5a0b9d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Página Não Encontrada</h2>
+
+        <div class="definition">
+            <p><strong>O que é um erro 404?</strong> Um erro 404 ocorre quando você tenta acessar uma página que não
+                existe no servidor.</p>
+        </div>
+
+        <p>Possíveis causas:</p>
+        <ul style="text-align: left;">
+            <li>O endereço URL foi digitado incorretamente</li>
+            <li>A página foi movida ou excluída</li>
+            <li>O link que você seguiu está desatualizado</li>
+        </ul>
+
+        <p>Nossa calculadora está disponível apenas na página inicial.</p>
+
+        <a href="/" class="back-button">Voltar para a Calculadora</a>
+    </div>
+</body>
+
+</html>
