@@ -1,5 +1,5 @@
 # Use the official Nginx image from the Docker Hub
-FROM nginx:latest
+FROM nginx:1.27.4-alpine3.21-slim
 
 # Copy the Nginx configuration file to the container
 COPY docker/nginx.conf /etc/nginx/nginx.conf
